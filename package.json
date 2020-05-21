@@ -9,7 +9,7 @@
   "private": true,
   "scripts": {
     "test": "echo \"No test specified\" && exit 0",
-    "deploy": "gh-pages -d dist/spa",
+    "deploy": "gh-pages -d dist",
     "build": "webpack"
   },
   "dependencies": {
@@ -32,5 +32,15 @@
   "browserslist": [
     "last 1 version, not dead, ie >= 11"
   ],
-  "homepage": "https://LenkaIvanova.github.io/Lenka-rss"
+  "main": ".postcssrc.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LenkaIvanova/Lenka-rss.git"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "homepage": "https://LenkaIvanova.github.io/Lenka-rss",
+  "bugs": {
+    "url": "https://github.com/LenkaIvanova/Lenka-rss/issues"
+  }
 }
