@@ -9,7 +9,7 @@
   "private": true,
   "scripts": {
     "test": "echo \"No test specified\" && exit 0",
-    "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d dist/spa",
     "build": "webpack"
   },
   "dependencies": {
